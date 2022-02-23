@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/imagenes/minipipo_logo.jpeg">
+    <meta name="Keywords" content="ropa, bebe, beba, ropita">
+    <meta name="author" content="Marcos Escobar">
+    <meta name="description" content="Página de venta de ropa para niños en la ciudad de Campana">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Normalizeminipipo.css">
+    <link rel="stylesheet" href="../minipipo.css">
+    <title>Minipipo</title>
+</head>
+<body>
+<!-- comienza el menú -->
+    <header class="menu_principal">
+        <div class="panel__wrapper">
+            <h4>Con una compra mínima de $8000, ¡El envío es gratuito!</h4>
+        </div>
+        <div class="top">
+            <div class="logIn icon">
+                <img src="../assets/imagenes/login.png" alt="">
+            </div>
+            <div class="logo">
+                <a class="logo_central" href="../index.html" ><img src="../assets/imagenes/minipipo_icon.png" alt=""</></a>            
+            </div>
+            <div class="shop icon">
+                <img src="../assets/imagenes/favoritos.png" alt="">
+                <img src="../assets/imagenes/carrito.png" alt=""> 
+            </div>
+        </div>
+        <div class="menu_principal">
+            <nav class="menu_principal-nav">
+                <ul>
+                    <li class="menu_principal__item"><a href="../index.html">Inicio</a></li>
+                    <li class="menu_principal__item navIzq"><a href="productos.html">Producto</a></li>
+                    <li class="menu_principal__item navCenter"><a href="contacto.html">Contacto</a></li>
+                    <li class="menu_principal__item navDer"><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- finaliza el menú -->
+    <main>
+        <div class="central contacto">
+            <h1><b>CONTACTO</b></h1>
+                <p>Nuestro horario de atención es de lunes a domingos de 08hs a 19hs</p>
+                
+        </div>
+        <!-- inicio formulario -->
+        <div class="contacto">
+               <!--<p>Motivo</p>  
+            <select name="opciones" id="cambios-devoluciones-consultarstock">
+                    <option value="Cambios">Cambios</option>
+                    <option value="Devoluciones">Devoluciones</option>
+                    <option value="Consultar Stock">Consultar Stock</option>
+            </select>-->
+            <form action="">
+                <label for="nombre">Nombre del contacto:</label>
+                    <input type="text" name="nombre" required><span class="obligatorio">*</span>
+                <label for="correo">Correo electrónico:</label>
+                    <input type="text" name="correo" required><span class="obligatorio">*</span>
+                <label for="correo">Confirmación del correo electrónico:</label>
+                    <input type="email" name="correo" required><span class="obligatorio">*</span>
+                <label for="teléfono">Teléfono/Celular:</label>
+                    <input type="text" name="teléfono" required><span class="obligatorio">*</span>
+                <label for="pedido">Número de pedido:</label>
+                    <input type="text" name="pedido" placeholder="En caso de no poseer colocar 0">
+                <p>COMENTARIOS </p>
+                <textarea name="COMENTARIOS" id="formulario" cols="30" rows="10"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>los campos con * son obligatorios.</p>
+            <!-- fin de formulario -->
+        </div>
+    </main>
+<!-- comienza el footer -->
+<footer class="footer">
+    <div class="fooNws ">
+        <p class="footer--newsletter">SI TE REGISTRAS A NUESTRO NEWSLATTER PODES ACCEDER A UN 10% DE DESCUENTO EN TU PRIMERA COMPRA!!</p>
+        <div class="newslatter">
+            <form action="">
+                <label for="newslatter">
+                    <input type="text" name="correo" placeholder="Ingresá tu mail"> 
+                    <button type="submit">Enviar</button>
+                </label>
+            </form> 
+        </div>
+    </div>
+    <div class="grids_foo">
+            <div class="icon envios">
+                <a href="envios.html"><img src="../assets/imagenes/envios_icon.png" alt=""></a>
+            </div>
+            <div class="icon devoluciones">
+                <a href="cambios_y_devoluciones.html"><img src="../assets/imagenes/devolucion.png" alt=""></a>
+            </div>
+            <div class="icon rrss ">
+                <a target="_blank" href="https://www.instagram.com/minipipo.kids/"><img src="../assets/imagenes/rs_ig.png" alt="instagram/minipipo"/></a>
+                <a target="_blank" href="https://www.facebook.com/minipipo.kids/"><img src="../Assets/imagenes/rs_fb.png" alt="facebook/minipipo" /></a>
+            </div>
+            <div class="envios_text">
+                <h4>Envios</h4>
+            </div>
+            <div class="devolucionestext">
+                <h4>Cambios y devoluciones</h4>
+            </div>
+            <div class="rrsstext">
+                <h4>Seguinos en las redes</h4>
+            </div>
+        </div> 
+    </div>  
+</footer>
+<!-- finaliza el footer -->
+</body>
+</html>

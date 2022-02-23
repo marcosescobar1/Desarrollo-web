@@ -1,0 +1,607 @@
+body{
+    background-color: rgb(245, 245, 241) ;
+    text-decoration: none;
+}
+.border{
+    border: black 1px solid;
+}
+/* HEADER */
+.logIn{
+    grid-area: logIn;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    grid-area: logo;
+    width: 300px;
+    height: 150px;
+    padding-top: 1%;
+}
+.shop img{
+    padding: 0 2px;
+}
+.shop{
+    grid-area: shop;
+    display: flex;
+    align-items: center;
+}
+.menu_principal{
+    grid-area: nav;
+}
+
+.panel__wrapper{
+    background-color: rgb(179, 174, 104);
+    color: aliceblue ;
+    /*font-weight: bold;*/
+    padding: 5px;
+    top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+/*----FIN DE HEADER----*/
+/*----MENU---- */
+.menu_principal{  
+    background-color: rgb(17, 161, 4);
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Titan One', cursive;   
+}
+.menu_principal-nav{
+    background-color: rgb(245, 245, 241);
+    padding: 15px;
+    width: 100%;
+    font-size: 25px;
+    /*font-weight: bold;*/
+}
+.menu_principal__item{
+    display: inline;
+    background-color: rgb(245, 245, 241) ;
+    padding: 5px;
+    margin: 5px 20px;
+
+}
+header li{
+    margin: 50px ;
+}
+.top .icon img{
+    width: 50px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* fin del menú*/
+
+.logo_central{
+    top: 2px;
+}
+/* FIN DE HEADER */
+
+main{
+    text-align: center;
+    
+}
+.imgIzq{
+    grid-area: imgIzq;
+}
+.imgCenter{
+    grid-area: imgCenter;
+}
+.imgDer{
+    grid-area: imgDer;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5% 0;
+}
+.central{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.icon{
+    width: 80px;
+}
+
+.productos{
+    text-align: right;
+}
+
+.contacto{
+    align-items: center;
+    justify-content: center;  
+    font-family: 'Anton', sans-serif; 
+    background: rgb(241, 241, 204); 
+}
+.central .contacto h1,p{
+    padding: 0% 0% 2% 0%;
+}
+
+input{
+    background-color: rgb(248, 248, 248); 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+label{
+    display: block; 
+    justify-content: center;  
+}
+
+textarea{
+    background-color: #fbfbfb;  
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+h1{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    padding: 2em 0;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+.contenido{ 
+    padding: 5%;
+    margin-top: 0px;
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+}
+/*----FORMULARIO NEWSLATTER ----*/
+.contacto form button{
+    background-color:rgb(179, 174, 104);
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    cursor: pointer;    
+}
+.obligatorio {
+    color: red;
+    font-size:larger;
+}
+input{
+    width: 50%;
+}
+textarea{
+    width: 700px;
+}
+/*----FIN FORMULARIO NEWSLATTER -----*/
+/* IMAGENES CIRCULARES */
+.circular{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+#filtros{
+    background-color: aquamarine;
+    width: 150px;
+}
+.grids{
+    display: grid;
+    grid-template-areas:
+    "infIzq infCenter infDer"
+    "info1 info2 info3";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    font-family: 'Anton', sans-serif;
+    padding: 2% 0;
+}
+.infIzq{
+    grid-area: infIzq;
+}
+.infCenter{
+    grid-area: infCenter;
+}
+.infDer{
+    grid-area: infDer;
+}
+.info1{
+    grid-area: info1;
+}
+.info2{
+    grid-area: info2;
+}
+.info3{
+    grid-area: info3;
+}
+
+/* FIN IMAGENES CIRCULARES */
+
+/* -- FOOTER -- */
+footer{
+    border-top: 1px gray solid;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(17, 161, 4);
+    padding-top: 2%;
+    font-family: 'Anton', sans-serif;
+}
+.newslatter{
+    display: block;
+    padding: 50px;
+    border: 100px;
+    width: 100%;
+    text-align: center;
+}
+.fooNws{
+    grid-area: fooNws;
+}
+.envios{
+    grid-area: envios;
+}
+.devoluciones{
+    grid-area: devoluciones;
+}
+.rrss{
+    grid-area: rrss;
+   display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+.segundo_menu{
+    padding: 0 70% 2% 2% ;
+    text-align: left;
+    font-family: 'Anton',sans-serif;
+}
+
+.segundo_menu--item{
+    list-style: none;
+    padding: 1%;
+    width: 100%;
+}
+
+button{
+    cursor: pointer
+}
+
+.footer--newsletter{
+    display: block;
+    color: aliceblue ;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.flex-foo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.grids_foo{
+    display: grid;
+    grid-template-areas:
+    "envios devoluciones rrss"
+    "envios_txt devolucionestext rrsstext";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    justify-items: center;
+    
+}
+.enviostext{
+    grid-area: enviostext;
+}
+.devolucionestext{
+    grid-area: devolucionestext;
+}
+.rrsstext{
+    grid-area: rrsstext;
+}
+
+/* -- MEDIA QUERIE MOBILE -- */
+@media only screen and (max-width: 764px){
+    .top{
+        background-color: rgb(17, 161, 4);
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .top :nth-child(1) { order: 2; }
+    .top :nth-child(2) { order: 1; }
+    .top :nth-child(3) { order: 1; }
+    .logo{
+        width: 180px;
+        height: 100px;
+        padding: 10px 0;
+        ;
+    }
+    .shop{
+        width: 30px;
+    }
+    .logIn{
+        width: 30px;
+    }
+    .menu_principal{
+        background-color: rgb(17, 161, 4);
+        grid-area: nav;
+        display: inline;
+    }
+    .menu_principal-nav{
+        background-color: rgb(245, 245, 241);
+        padding: 15px;
+        width: 100%;
+        font-size: 20px;
+        display: inline-flex;
+        /*font-weight: bold;*/
+    }
+    .menu_principal__item{
+        display: inline-flex;
+        flex-wrap: wrap;
+        background-color: rgb(245, 245, 241) ;
+        padding: 1px;
+        margin: 5px;
+    
+    }
+    .inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 5% 0;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .contacto{
+        background: rgb(241, 241, 204);      
+        margin: auto;
+        align-items: center;
+        justify-content: center;  
+        font-family: 'Anton', sans-serif; 
+    }
+    textarea{
+        width: 99%;
+    }
+    .central .contacto, p{
+        padding-bottom: 0px;
+    }
+    .contacto form button{
+        background-color:rgb(179, 174, 104);
+        width: 300px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }  
+    
+    .grids{
+        display: grid;
+        grid-template-areas:
+        "infIzq"
+        "info1"
+        "infCenter"
+        "info2"
+        "infDer"
+        "info3" ;
+        grid-template-columns: 99%;
+        grid-template-rows: auto auto auto auto auto auto;
+        font-family: 'Anton', sans-serif;
+        padding: 2% 0;
+        text-align: center;
+    }
+    .circular{
+        width: 150px;
+    }
+    .infIzq{
+        grid-area: infIzq;
+    }
+    .infCenter{
+        grid-area: infCenter;
+    }
+    .infDer{
+        grid-area: infDer;
+    }
+    .info1{
+        grid-area: info1;
+        padding-bottom: 5%;
+    }
+    .info2{
+        grid-area: info2;
+        padding-bottom: 5%;
+    }
+    .info3{
+        grid-area: info3;
+        padding-bottom: 5%;
+    }
+    .newslatter{
+        width: 100%;
+        padding: 10% 0%;
+    }
+    .grids_foo{
+        display: grid;
+        grid-template-areas:
+        "envios devoluciones rrss"
+        /*"rrss rrss"*/
+        "envios_txt devolucionestext rrsstext";
+        /*"rrsstext rrsstext";*/
+        grid-template-columns: 33% 33% 33% ;
+        grid-template-rows: auto auto auto ;
+        font-family: 'Anton', sans-serif ;
+        text-align: center ;
+        justify-items: center ;
+        
+    }
+    .footer--newsletter{
+        font-size: 14px;
+    }
+    .enviostext{
+        grid-area: enviostext;
+    }
+    .devolucionestext{
+        grid-area: devolucionestext;
+    }
+    .rrsstext{
+        grid-area: rrsstext;
+    }
+}
+
+/* -- MEDIA QUERIE TABLET -- */
+@media only screen and (min-width: 764px) and (max-width: 919px){
+    .top{
+        background-color: rgb(17, 161, 4);
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .menu_principal{
+        background-color: rgb(17, 161, 4);
+        grid-area: nav;
+        display: inline;
+    }
+    .menu_principal-nav{
+        background-color: rgb(245, 245, 241);
+        padding: 15px;
+        width: 100%;
+        font-size: 20px;
+        display: inline-flex;
+        /*font-weight: bold;*/
+    }
+    .menu_principal__item{
+        display: inline-flex;
+        flex-wrap: wrap;
+        background-color: rgb(245, 245, 241) ;
+        padding: 1em;
+        margin: 5px;
+    
+    }
+    .inicio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 5% 0;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .contacto{
+        background: rgb(241, 241, 204);      
+        margin: auto;
+        align-items: center;
+        justify-content: center;  
+        font-family: 'Anton', sans-serif; 
+    }
+    textarea{
+        width: 99%;
+    }
+    .central .contacto, p{
+        padding-bottom: 50px;
+    }
+    .contacto form button{
+        background-color:rgb(179, 174, 104);
+        width: 300px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }  
+    
+    .grids{
+        display: grid;
+        grid-template-areas:
+        "infIzq infCenter infDer"
+        "info1 info2 info3";
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto auto auto;
+        font-family: 'Anton', sans-serif;
+        padding: 2% 0;
+    }
+    
+    .infIzq{
+        grid-area: infIzq;
+    }
+    .infCenter{
+        grid-area: infCenter;
+    }
+    .infDer{
+        grid-area: infDer;
+    }
+    .info1{
+        grid-area: info1;
+        padding-bottom: 5%;
+    }
+    .info2{
+        grid-area: info2;
+        padding-bottom: 5%;
+    }
+    .info3{
+        grid-area: info3;
+        padding-bottom: 5%;
+    }
+    .newslatter{
+        width: 100%;
+        padding: 10% 0%;
+    }
+    .grids_foo{
+        display: grid;
+        grid-template-areas:
+        "envios devoluciones rrss"
+        /*"rrss rrss"*/
+        "envios_txt devolucionestext rrsstext";
+        /*"rrsstext rrsstext";*/
+        grid-template-columns: 33% 33% 33% ;
+        grid-template-rows: auto auto auto ;
+        font-family: 'Anton', sans-serif ;
+        text-align: center ;
+        justify-items: center ;
+        
+    }
+    .footer--newsletter{
+        font-size: 14px;
+    }
+    .enviostext{
+        grid-area: enviostext;
+    }
+    .devolucionestext{
+        grid-area: devolucionestext;
+    }
+    .rrsstext{
+        grid-area: rrsstext;
+    }
+}
+/* -- MEDIA QUERIE DESKTOP -- */
+@media only screen and (min-width: 1024px){
+
+}
