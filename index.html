@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="Normalizeminipipo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="minipipo.css">
     <title>Minipipo</title>
 </head>
@@ -52,8 +53,9 @@
     <!-- comienza el main -->
     <!-- -->
         <main>
-            <div class="inicio"> 
-                <a href="Views/productos_beba.html"><img class="imgIzq" src="assets/imagenes/bebemodelo.jpg" alt="imagenen_beba" width="450px" height="500px"/></a>
+            <div class="inicio" > 
+                <div ><a href="Views/productos_beba.html"><img class="imgIzq" src="assets/imagenes/bebemodelo.jpg" alt="imagenen_beba" width="450px" height="500px"/></a></div>
+                
                 <a href="Views/productos_bebe.html"><img class="imgCenter" src="assets/imagenes/niña__modelo.jpg" alt="imagen_bebe" width="450px" height="500px"/></a>
                 <a href=""><img class="imgDer" src="assets/imagenes/niño__modelo.jpg" alt="imagen_bebe" width="450px" height="500px"/></a>
             </div>
@@ -67,15 +69,21 @@
                     <div class="infDer">
                         <img src="assets/imagenes/delibery__icon.png" alt="delibery" class="circular">
                     </div>
-                    <div class="info1">
+                    <div class="info1" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <h4>3 y 6 cuotas sin interés</h4>
                         <p>Con tarjetas Mastercard, Visa y American Express</p>
                     </div>
-                    <div class="info2">
+                    <div class="info2" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <h4>Podés acercarte a nuestra tienda</h4>
                         <p>De lunes a sabados de 10hs a 19hs</p>
                     </div>
-                    <div class="info3">
+                    <div class="info3" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <h4>Envíos sin cargo</h4>
                         <p>Con compras superiores a $8000. </p>
                     </div>
@@ -119,6 +127,10 @@
                 </div> 
             </div>  
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 <!-- finaliza el footer -->
 </body>
 </html>
